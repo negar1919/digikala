@@ -1,0 +1,114 @@
+div.khas{
+    width: 97%;
+    height: 444px;
+    border: 1px solid rgb(228, 227, 227);
+    border-bottom: 1px solid rgb(228, 227, 227) ;
+    border-radius: 23px;
+    margin-right: 22px;
+    margin-top: 22px;
+    div.forosh{
+        width: 100%;
+        height: 60px;
+        /* background-color: plum; */
+        .m3{
+            width: 40%;
+            height: inherit;
+            /* background-color: rgb(237, 100, 203); */
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            padding-left: 41px;
+            font-family: iran;
+            font-size: 14px;
+           color: #19BFD3; 
+        }
+        .ff{
+            width: 100%;
+            height: inherit;
+            /* background-color: mediumorchid; */
+            color: black;
+            font-size: 16px;
+            font-family: iran;
+            font-weight: bold;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            svg{
+                height: 25px;
+                width: 55px;
+                color: gold;
+            }
+        }
+    }
+    .swiper-slide{
+        height: inherit;
+        width: 400px;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    div.gg{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+    div.aks11{
+        width: 60%;
+        height: 77%;
+        display: flex;
+        justify-content: center;
+        
+        align-items: center;
+        img{
+            width: inherit;
+            height: inherit;
+            object-fit: cover;
+        justify-content: right;
+
+        }
+     }
+     .num{
+      font-size: 40px;
+        color: #19BFD3;
+        display: flex;
+        justify-content: right;
+     }
+     .ti{
+        color: #62666d;
+        /* text-align: center; */
+        cursor: pointer;
+        /* padding-top: 11px; */
+        /* line-height: 25px; */
+        font-family: iran;
+        font-size: 12px;
+     }
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      @media (max-width: 760px) {
+        .swiper-button-next {
+          right: 20px;
+          transform: rotate(90deg);
+        }
+    }
+  
+        /* .swiper-button-prev {
+          left: 20px;
+          transform: rotate(90deg);
+        } */
+      
+      
+    }
+

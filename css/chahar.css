@@ -1,0 +1,18 @@
+div.chahar {
+  width: 100%;
+  height: 243px;
+  /* background-color: violet; */
+  .gift {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    border-radius: 10%;
+    height: inherit;
+    /* background-color: wheat;   */
+    .img {
+      border-radius: 33px !important;
+    }
+  }
+}

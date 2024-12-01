@@ -1,0 +1,15 @@
+div.zemston{
+    width: 98%;
+    height: 177px;
+    margin-top: 22px;
+    /* margin-right: 19px; */
+    /* background-color: darkgrey; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: inherit;
+        height: inherit;
+        border-radius: 22px;
+    }
+}

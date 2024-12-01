@@ -1,0 +1,59 @@
+div.daste {
+  width: 100%;
+  height: 465px;
+  /* background-color: aquamarine; */
+
+  .mdaste {
+    width: 100%;
+    height: 106px;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: iran;
+    font-weight: bold;
+  }
+  div.b1 {
+    width: 100%;
+    height: 222px;
+    /* background-color: yellowgreen; */
+    padding-right: 21px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    div.a1 {
+      width: 11%;
+      height: 222px;
+      /* background-color: yellow; */
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+      div.i1 {
+        width: 100%;
+        height: 133px;
+        /* background-color: blue; */
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+      }
+      div.t1{
+        width: 100%;
+        height: 69px;
+        /* background-color: violet; */
+        color: black;
+        text-align: center;
+        cursor: pointer;
+        padding-top: 11px;
+        line-height: 25px;
+        font-family: iran;
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+div.brand{
+    width: 97%;
+    overflow: hidden;
+    height: 278px;
+    border-radius: 31px;
+    border: 1px solid rgb(225, 225, 228);
+    margin: 9px 9px 0px 0px;
+    div.mahboob{
+        width: 100%;
+        height: 60px;
+        /* background-color: thistle; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        font-size: 15px;
+        font-family: iran;
+        font-weight: bold;
+    }
+    img{
+        width: 200px;
+        height: 170px;
+        object-fit: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      /* @media (max-width: 760px) {
+        .swiper-button-next {
+          right: 20px;
+          transform: rotate(90deg);
+        }
+      } */
+        /* .swiper-button-prev {
+          left: 20px;
+          transform: rotate(90deg);
+        }
+      } */
+    }
+    div.khat{
+      /* height: inherit; */
+        border-left: 1px solid rgb(215, 216, 218);
+    }

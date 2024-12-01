@@ -1,0 +1,69 @@
+div.tacno{
+    width: 98%;
+    height: 400px;
+    border: 1px solid rgb(230, 233, 233);
+    border-radius: 16px;
+    /* background-color: darkkhaki; */
+    margin-top: 22px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11px;
+    gap: 41px;
+    div.date1{
+        width: 22%;
+        height: inherit;
+        /* background-color: antiquewhite; */
+        div.bala1{
+            /* width: ; */
+            height: 30px;
+            /* background-color: chartreuse; */
+            font-family: iran;
+            font-size: 16px;
+            color: rgb(34, 33, 33);
+            padding: 4px 7px;
+        }
+        div.bala2{
+                height: 20px;
+                /* background-color: chocolate; */
+                color: #62666d;
+                /* text-align: center; */
+                cursor: pointer;
+                /* padding-top: 11px; */
+                /* line-height: 25px; */
+                font-family: iran;
+                font-size: 12px;
+            padding: 3px 9px;
+
+        }
+    }
+    div.payn{
+        height: inherit;
+        /* background-color: cadetblue; */
+        display: flex;
+        flex-flow: row nowrap;
+
+      
+        div.aks1 {
+            height: inherit;
+            .moshahde{
+                width: inherit;
+                    font-family: iran;
+                    font-size: 14px;
+                   color: #19BFD3; 
+                }
+        
+      
+            img{
+                width: inherit;
+                height: 36%;
+                object-fit: cover;
+            }
+      
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+}

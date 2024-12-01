@@ -1,0 +1,114 @@
+div.shgeft {
+  width: 100%;
+  height: 330px;
+  background: linear-gradient(225deg, #d22c4e, #ee384e 41.68%, #ef5662);
+  cursor: pointer;
+  padding: 22px 0px;
+  box-sizing: border-box;
+  border-radius: 22px;
+  margin-top: 15px;
+  
+
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+
+    .mainshgeft {
+      background-color: transparent;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: space-between;
+      div.more {
+        width: 100%;
+        a {
+          color: rgb(255, 255, 255);
+          font-family: iran;
+          font-size: 16px;
+          text-decoration: none;
+          margin-right: 45px;
+        }
+      }
+    }
+  }
+
+  .swiper-slide {
+    width: 180px;
+    height: 260px;
+
+    background: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+
+    .desc {
+      font-size: 13px;
+      font-family: iran;
+      font-weight: 100;
+      color: #62666d;
+      padding-right: 9px;
+    }
+  }
+
+  .imag1 {
+    margin: 0 auto;
+    width: 132px;
+    height: 132px;
+  }
+
+  .swiper-slide img {
+    width: 132px;
+    height: 132px;
+    display: inline-block;
+  }
+
+  .footer {
+    width: 145px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+
+
+
+
+  }
+}
+div.price{
+  margin-right: 11px;
+  span {
+    width: 33px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 10px;
+    display: inline-block;
+    background: red;
+    color: white;
+
+    font-size: iran;
+
+  }
+}
+.number {
+  margin-right: 66px;
+  .newprice {
+    display: block;
+    color: black;
+    font-weight: bold;
+    font-family: iran;
+    font-size: 12px;
+    margin-bottom: -11px;
+    padding-left: 6px;
+  }
+  .oldprice {
+    width: 100%;
+    color: #9a9b9c;
+   font-family: iran;
+   text-align: left;
+   padding: 11px 3px;
+   box-sizing: border-box;
+   text-decoration: line-through;
+   padding-left: 5px;
+
+  }
+}
